@@ -27,6 +27,10 @@ const httpsOptions = {
 };
 */
 
+/*
+Adding comment to see if this triggers a scan
+*/
+
 MongoClient.connect(db, (err, db) => {
     if (err) {
         console.log("Error: DB: connect");
